@@ -1,0 +1,331 @@
+.header{
+    width: 70%;
+    height: 10vh;
+    /* background-color: green; */
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.addList{
+    width: 70%;
+    height: 30vh;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.taskBar{
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+}
+
+
+input{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.category{
+    width: 10%;
+    height: 20%;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+.add{
+    width: 10%;
+    height: 100%;
+    font-size: 35px;
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.add:active{
+    color: rgb(255, 123, 0);
+    font-size: 40px;
+}
+
+.icon{
+    width: 40%;
+    height: 100%;
+    background-color: orangered;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon:active{
+    background-color: rgb(255, 123, 0);
+}
+
+p{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    font-size: 18px;
+}
+
+.list{
+    width: 40%;
+    height: 30%;
+    /* background: white; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    overflow-y:scroll;
+}
+
+.listItem{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background: white;
+    justify-content: space-between;
+}
+
+.listItemIcon{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+j{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+}
+
+.edit{
+    width: 50%;
+    height: 100%;
+    background: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.edit:hover{
+    background: darkgreen;
+}
+
+.edit:active{
+    background: green;
+}
+
+.delete{
+    width: 50%;
+    height: 100%;
+    background: orangered;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.delete:hover{
+    background: rgb(206, 59, 6);
+}
+
+.delete:active{
+    background: orangered;
+}
+
+@media screen and (width <= 425px) {
+    .header{
+        width: 70%;
+        height: 10vh;
+        /* background-color: green; */
+        display: flex;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+    
+    .addList{
+        width: 90%;
+        height: 25vh;
+        /* background: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .taskBar{
+        width: 80%;
+        height: 20%;
+        background-color: white;
+        display: flex;
+        margin-bottom: 50px;
+    }
+    
+    
+    input{
+        width: 82%;
+        height: 100%;
+        background-color: white;
+        border: none;
+        outline: none;
+        font-size: 22px;
+        padding: 20px;
+    }
+    
+    .category{
+        display: none;
+    }
+    
+    .add{
+        width: 15%;
+        height: 100%;
+        font-size: 35px;
+        color: orangered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+    
+    .add:active{
+        color: rgb(255, 123, 0);
+        font-size: 40px;
+    }
+    
+    /* .icon{
+        width: 40%;
+        height: 100%;
+        background-color: orangered;
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    } */
+    
+    .icon:active{
+        background-color: rgb(255, 123, 0);
+    }
+    
+    p{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: orangered;
+        font-size: 18px;
+    }
+    
+    .list{
+        width: 80%;
+        height: 30%;
+        /* background: white; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .listItem{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        background: white;
+        justify-content: space-between;
+    }
+    
+    .listItemIcon{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    j{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .edit{
+        width: 50%;
+        height: 100%;
+        background: green;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .edit:hover{
+        background: darkgreen;
+    }
+    
+    .edit:active{
+        background: green;
+    }
+    
+    .delete{
+        width: 50%;
+        height: 100%;
+        background: orangered;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .delete:hover{
+        background: rgb(206, 59, 6);
+    }
+    
+    .delete:active{
+        background: orangered;
+    }
+}
