@@ -1,5 +1,5 @@
 import React, { useReducer, useState } from 'react';
-import './AddList.css';
+import './addlist.css';
 import { FaSquarePlus } from "react-icons/fa6";
 import { TiArrowSortedDown, TiTick } from "react-icons/ti";
 import { MdDelete } from "react-icons/md";
